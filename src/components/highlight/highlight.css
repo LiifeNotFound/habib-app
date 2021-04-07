@@ -1,0 +1,52 @@
+.highlight {
+	width: 100%;
+	height: 80vh;
+	background: linear-gradient(270deg, #45f1e7, #4f97ec);
+	background-size: 400% 400%;
+	position: relative;
+	-webkit-animation: gradient 3s ease infinite;
+	-moz-animation: gradient 3s ease infinite;
+	animation: gradient 3s ease infinite;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.highlight span {
+	font-size: 7rem;
+	color: white;
+	font-weight: 700;
+	padding: 0.8rem;
+	box-shadow: rgba(255, 255, 255, 0.205) -2px 2px 0;
+}
+
+.highlight button {
+	color: white;
+	position: absolute;
+	padding: 0.8rem;
+	width: 60px;
+	height: 60px;
+	bottom: -30px;
+	display: flex;
+	justify-content: center;
+	border: none;
+	align-items: center;
+	border-radius: 50%;
+    transition: all .4s;
+}
+
+.highlight button:hover {
+	box-shadow: var(--shadow) 0 7px 5px;
+}
+
+.highlight button:focus {
+	outline: none;
+}
+
+.highlight button .arrow {
+	color: rgb(0, 0, 0);
+	font-size: 2rem;
+	font-weight: 700;
+}
+
