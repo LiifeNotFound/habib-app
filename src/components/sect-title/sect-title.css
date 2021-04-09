@@ -1,9 +1,7 @@
-.sect {
-	padding: var(--vertical) var(--horizontal);
-	width: 100%;
-}
 .sect .sect-title {
 	width: fit-content;
 	box-shadow: black -2px 2px 0;
 	padding: 0.7rem;
+	margin: 1rem 0;
 }
+

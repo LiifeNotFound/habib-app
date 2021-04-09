@@ -14,11 +14,10 @@
 }
 
 .highlight span {
-	font-size: 7rem;
+	font-size: 4rem;
 	color: white;
 	font-weight: 700;
-	padding: 0.8rem;
-	box-shadow: rgba(255, 255, 255, 0.205) -2px 2px 0;
+	padding: 0.8rem; 
 }
 
 .highlight button {
